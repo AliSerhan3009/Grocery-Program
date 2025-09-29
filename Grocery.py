@@ -15,3 +15,8 @@ while n != "done":
   sum+= groceries[n]
  else: print("Sorry, we don’t have that item.")
  n = input("What do you want to buy? ")
+print("You bought: "+ str(lista))
+print("Total = $" + str(sum))
+if sum>10:
+ print("You spend a lot!")
+else: print("You spent a little!")
